@@ -1,4 +1,4 @@
-```jsx
+
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
@@ -47,7 +47,6 @@ const plants = [
     price: 32,
     image: "/images/rubber-plant.jpg"
   },
-
   {
     id: 7,
     name: "Aloe Vera",
@@ -90,7 +89,6 @@ const plants = [
     price: 24,
     image: "/images/zebra-haworthia.jpg"
   },
-
   {
     id: 13,
     name: "Rose",
@@ -157,7 +155,7 @@ function ProductList() {
   return (
     <div className="product-page">
       <nav className="navbar">
-        <h2>Paradise Nursery</h2>
+        <h2>e-plantShopping</h2>
 
         <div className="nav-links">
           <Link to="/">Home</Link>
@@ -205,4 +203,3 @@ function ProductList() {
 }
 
 export default ProductList;
-```
