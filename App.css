@@ -1,1 +1,36 @@
+```css
+.app {
+  min-height: 100vh;
+}
 
+.landing-page {
+  min-height: 100vh;
+  background-image: url("/images/nursery-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.landing-content {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.landing-content h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.landing-content button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+}
+```
