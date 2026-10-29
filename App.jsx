@@ -1,4 +1,3 @@
-```jsx
 import React from "react";
 import "./App.css";
 
@@ -11,7 +10,7 @@ function App() {
     <div className="app">
       <div className="landing-page">
         <div className="landing-content">
-          <h1>Paradise Nursery</h1>
+          <h1>e-plantShopping</h1>
           <p>Bring nature into your home with beautiful houseplants.</p>
 
           <button onClick={handleGetStarted}>
@@ -24,4 +23,3 @@ function App() {
 }
 
 export default App;
-```
