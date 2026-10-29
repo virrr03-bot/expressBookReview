@@ -1,13 +1,12 @@
-```jsx
 import React from "react";
 
 function AboutUs() {
   return (
     <div className="about-us">
-      <h1>About Paradise Nursery</h1>
+      <h1>About e-plantShopping</h1>
 
       <p>
-        Paradise Nursery is an online plant nursery that provides a variety
+        e-plantShopping is an online plant nursery that provides a variety
         of beautiful and healthy houseplants for homes and offices.
       </p>
 
@@ -27,4 +26,3 @@ function AboutUs() {
 }
 
 export default AboutUs;
-```
